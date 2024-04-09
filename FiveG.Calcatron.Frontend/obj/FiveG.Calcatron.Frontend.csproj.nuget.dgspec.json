@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programming but faster loading\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj": {}
+    "C:\\Users\\P$EUDOF1V3\\Source\\Repos\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Programming but faster loading\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj": {
+    "C:\\Users\\P$EUDOF1V3\\Source\\Repos\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programming but faster loading\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\P$EUDOF1V3\\Source\\Repos\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj",
         "projectName": "FiveG.Calcatron.Frontend",
-        "projectPath": "C:\\Programming but faster loading\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Haze\\.nuget\\packages\\",
-        "outputPath": "C:\\Programming but faster loading\\Calcatron\\FiveG.Calcatron.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\P$EUDOF1V3\\Source\\Repos\\Calcatron\\FiveG.Calcatron.Frontend\\FiveG.Calcatron.Frontend.csproj",
+        "packagesPath": "C:\\Users\\P$EUDOF1V3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\P$EUDOF1V3\\Source\\Repos\\Calcatron\\FiveG.Calcatron.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Haze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\P$EUDOF1V3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +65,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
