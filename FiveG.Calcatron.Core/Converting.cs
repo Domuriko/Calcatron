@@ -52,6 +52,7 @@ namespace FiveG.Calcatron.Core
                 div--;
             }
             convertedNum += numberEq[(int)dec];
+            
             while (div != 0)
             {
                 convertedNum += 0;
@@ -59,6 +60,35 @@ namespace FiveG.Calcatron.Core
             }
 
             return convertedNum;
+        }
+
+        public static double BaseOfToDec(string num, int baseN)
+        {
+            string numberEq = pattern.Substring(0, baseN);
+
+            string convertedNum = "";
+
+            int commaLocation = num.IndexOf(',');
+
+            int current = commaLocation != -1 ? num.Substring(0, commaLocation).Length : num.Length;
+
+            int duration = commaLocation != -1 ? num.Length+1 : num.Length;
+
+            for (int i = 0; i < ; i++)
+            {
+                if (i != commaLocation)
+                {
+                    convertedNum += (numberEq.IndexOf(num[i]) * Math.Pow(baseN,current));
+                    current--;
+                }
+            }
+
+            return Double.Parse(convertedNum);
+        }
+
+        public static string BaseOfToBaseOf(string num, int baseO, int baseD)
+        {
+            return (DecToBaseOf(BaseOfToDec(num,baseO),baseD));
         }
     }
 }
